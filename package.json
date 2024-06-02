@@ -1,0 +1,22 @@
+{
+  "name": "map-orientation",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "vant": "^4.9.0",
+    "vconsole": "^3.15.1",
+    "vue": "^3.4.19",
+    "vue-clipboard3": "^2.0.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.7.1",
+    "@rsbuild/plugin-sass": "^0.7.1",
+    "@rsbuild/plugin-vue": "^0.7.1"
+  }
+}
